@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "clase-python"
+version = "0.1.0"
+description = ""
+authors = ["Gina Bonilla <gibi829@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.103.1"
+pytest = "^7.4.2"
+pytest-cov = "^4.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
